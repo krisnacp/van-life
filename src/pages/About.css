@@ -1,0 +1,54 @@
+/* about */
+.about-wrapper {
+    padding: 0 0 3rem;
+    color: #161616;
+}
+
+.about-content {
+    padding: 3rem 1rem 0rem;
+}
+
+.about-content > h1,
+.about-content > p {
+    margin: 0 0 1.5rem;
+}
+
+.about-content > h1 {
+    font-size: 2rem;
+}
+
+.about-content > article {
+    margin: 0 0 2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.van-box {
+    background-color: #ffcc8d;
+    height: 198px;
+    border-radius: 0.2rem;
+    padding: 2rem;
+}
+
+.tagline {
+    margin: 0 0 1.5rem;
+    font-size: 1.1rem;
+}
+
+.btn-van-explore {
+    border: none;
+    color: #fff;
+    background-color: #161616;
+    width: 179px;
+    height: 49px;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.btn-van-explore > h5 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* end of about */
