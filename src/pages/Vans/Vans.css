@@ -1,0 +1,111 @@
+.vans-wrapper {
+    padding: 2rem 1rem 3rem;
+    color: #161616;
+}
+
+/* filters */
+.vans-wrapper > header {
+    margin: 0 0 2rem;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0.5rem 0 0;
+}
+
+.filter-container {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.filter {
+    width: 104px;
+    height: 37px;
+    background-color: #ffead0;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.filters-cleaner {
+    display: flex;
+    width: 104px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: #4d4d4d;
+}
+/* end of filters */
+
+/* vans */
+.vans-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.van-card {
+    width: 229px;
+    /* height: 310px; */
+    height: fit-content;
+    box-sizing: border-box;
+    margin: 0 0 1rem;
+    /* overflow: hidden; */
+}
+
+.link-wrapper {
+    text-decoration: none;
+    color: #161616;
+}
+
+.van-img {
+    border-radius: 0.3rem;
+    margin: 0 0 0.5rem;
+}
+
+.van-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.van-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.van-price > span {
+    font-size: 0.8rem;
+}
+
+.van-category {
+    width: 86px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e17654;
+    color: #ffead0;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+
+.simple {
+    background-color: #e17654;
+}
+
+.rugged {
+    background-color: #115e59;
+}
+
+.luxury {
+    background-color: #161616;
+}
+/* end of vans */

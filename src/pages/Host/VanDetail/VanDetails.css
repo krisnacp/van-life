@@ -1,0 +1,47 @@
+.host-van-details {
+    padding: 0 0 1rem;
+}
+
+.host-van-details > p {
+    margin: 0 0 1rem;
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* pricing */
+.host-van-pricing {
+    padding: 0 0 2rem;
+    margin: 1rem 0 0;
+}
+
+.host-van-pricing > p {
+    display: flex;
+    align-items: center;
+}
+
+.bold-pricing {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+/* end of pricing */
+
+/*photos */
+.host-van-photos {
+    padding: 0 0 2rem;
+    margin: 1rem 0 0;
+}
+
+.van-photo {
+    width: 103px;
+    border-radius: 0.2rem;
+}
+/* end of photos */
+
+.loading-van-details {
+    width: fit-content;
+    margin: 1rem auto 0;
+    padding: 0 0 2rem;
+}

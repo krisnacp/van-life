@@ -1,0 +1,131 @@
+/* .dashboard-wrapper {
+    padding: 0 1rem;
+} */
+
+.earning-wrapper {
+    background-color: #ffead0;
+    padding: 1.5rem 1rem;
+}
+
+.earning-title {
+    font-size: xx-large;
+    padding: 0 0 1rem;
+}
+
+.earning-info {
+    padding: 0 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.month-earning {
+    color: #4d4d4d;
+}
+
+.month-earning > span {
+    font-weight: bold;
+    border-bottom: #4d4d4d solid 1px;
+}
+
+.earning-nominal {
+    font-size: 3rem;
+}
+
+.score-wrapper {
+    background-color: #ffddb2;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.score-container > h3 {
+    font-size: 1.5rem;
+}
+
+.star-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.star-icon {
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+.score {
+    font-size: 1.25rem;
+}
+
+.score > span {
+    font-weight: 400;
+    color: #4d4d4d;
+}
+
+.score-details {
+    font-weight: 500;
+}
+
+.listed-vans-wrapper {
+    padding: 1rem 1rem 0;
+}
+
+.all-list-vans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all-list-vans > h3 {
+    font-size: 1.5rem;
+}
+
+.all-list-vans > p {
+    font-weight: 500;
+}
+
+.listed-van-card-container {
+    margin: 1rem 0 3rem;
+}
+
+.listed-van-card {
+    display: flex;
+    background-color: #ffffff;
+    color: #161616;
+    padding: 1rem;
+    height: 102px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem;
+    border-radius: 0.2rem;
+}
+
+.van-info-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-img {
+    width: 65px;
+    aspect-ratio: 1;
+    border-radius: 0.2rem;
+}
+
+.listed-van-card > p {
+    font-weight: 500;
+}
+
+.van-info > p {
+    color: #4d4d4d;
+    font-weight: 400;
+}

@@ -7,10 +7,12 @@
     box-sizing: border-box;
 }
 /*
-    2. Remove default margin
+    2. Remove default margin and margin
   */
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /*
     Typographic tweaks!
